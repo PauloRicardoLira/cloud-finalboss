@@ -9,5 +9,5 @@ server.get("/ping", (req, res) => {
 server.use(express.json());
 
 server.listen(process.env.PORT || 3000, () => {
-  console.log("server on");
+  console.log("Servidor online");
 });
